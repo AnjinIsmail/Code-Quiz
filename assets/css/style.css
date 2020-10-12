@@ -1,0 +1,128 @@
+#page-title {
+  color: teal;
+  margin-bottom: 5px;
+  margin-top: 80px;
+  font-size: 2.3rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: left;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: teal;
+}
+
+#countdown {
+  text-align: right;
+  margin-right: 20px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: teal;
+}
+
+p,
+#content h2 {
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+button:hover {
+  background-color: turquoise;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  color: black;
+  margin: 5px 0 20px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#alldone {
+  text-align: center;
+  margin-left: 30px;
+  color: black;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#done {
+  color: black;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+#score {
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myform {
+  text-align: center;
+  margin-left: 30px;
+  color: black;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes myname {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  padding: 10px 15px;
+  background: rgb(19, 172, 172);
+  font-size: 2.2rem;
+  border-radius: 12px;
+  position: relative;
+  top: -3px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 43%;
+  margin-right: 30%;
+}
+
+.btn:hover {
+  box-shadow: 0 2px var(rgb(9, 14, 2));
+  top: -2px;
+}
+.btn:active {
+  box-shadow: 0 0px teal;
+  top: 0;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 26px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 20%;
+  background: rgb(19, 172, 172);
+  margin-left: 40%;
+  margin-right: 30%;
+}
+
+#view ()
